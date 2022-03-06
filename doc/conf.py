@@ -19,7 +19,7 @@
 
 project = 'Signals and Systems'
 author = 'X. Zhao'
-copyright = '2022, X. Zhao'
+copyright = 'CC BY-NC-SA 4.0'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
@@ -44,7 +44,12 @@ language = 'zh_CN'
 # ones.
 extensions = [
     'myst_parser',
+    'numpydoc',
 ]
+
+# numpydoc config
+numpydoc_use_plots = True
+numpydoc_validation_checks = {'all'}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -60,9 +65,10 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'pydata_sphinx_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+# html_static_path = ['_static']
+html_static_path = []
