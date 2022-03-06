@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Signals and Systems'
+project = '信号与系统'
 author = 'X. Zhao'
 copyright = 'CC BY-NC-SA 4.0'
 
@@ -46,6 +46,9 @@ extensions = [
     'myst_parser',
     'numpydoc',
 ]
+
+# MyST parser configuration
+myst_enable_extensions = ['dollarmath']
 
 # numpydoc config
 numpydoc_use_plots = True
