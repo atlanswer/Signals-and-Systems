@@ -52,7 +52,7 @@ numpydoc_use_plots = True
 numpydoc_validation_checks = {'all'}
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -70,5 +70,7 @@ html_theme = 'pydata_sphinx_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-# html_static_path = ['_static']
-html_static_path = []
+html_static_path = ['static']
+
+# Fix GitHub Pages 404 for files with underscore in name, see https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages
+html_extra_path = ['.nojekyll']

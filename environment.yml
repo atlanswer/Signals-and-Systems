@@ -26,7 +26,6 @@ dependencies:
   - markupsafe=2.1.0=py310he2412df_0
   - mdit-py-plugins=0.3.0=pyhd8ed1ab_0
   - mdurl=0.1.0=pyhd8ed1ab_0
-  - mpl-sphinx-theme=3.5.0=pyhd8ed1ab_0
   - myst-parser=0.17.0=pyhd8ed1ab_0
   - numpydoc=1.2=pyhd8ed1ab_0
   - openssl=1.1.1l=h8ffe710_0
