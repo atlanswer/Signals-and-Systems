@@ -1,2 +1,3 @@
-# Signals-and-Systems
-Signals and Systems course resources
+# Signals and Systems
+
+Signals and Systems course resources.

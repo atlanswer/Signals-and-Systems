@@ -27,6 +27,18 @@ release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 
+# If set to a major.minor version string like '1.1', Sphinx will
+# compare it with its version and refuse to build if it is too old.
+# Default is no requirement.
+needs_sphinx = '4.3'
+
+# If true, Sphinx will warn about all references where the target
+# cannot be found. Default is False. You can activate this mode
+# temporarily using the `-n` command-line switch.
+nitpicky = True
+
+language = 'zh_CN'
+
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
