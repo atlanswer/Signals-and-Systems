@@ -70,6 +70,27 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'pydata_sphinx_theme'
+html_logo = 'static/sinusoid.svg'
+html_favicon = 'static/sinusoid.ico'
+html_theme_options = {
+    'navbar_start': ['navbar-brand'],
+    'external_links': [
+        {
+            'name': 'EM Journey',
+            'url': 'https://gitee.com/kai-lu/EM_Journey',
+        }
+    ],
+    'github_url': 'https://github.com/atlanswer/signals-and-systems',
+    'use_edit_page_button': True,
+    'search_bar_text': '搜索',
+    'show_toc_level': 2,
+}
+html_context = {
+    'github_user': 'atlanswer',
+    'github_repo': 'signals-and-systems',
+    'github_version': 'main',
+    'doc_path': 'doc',
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
