@@ -45,6 +45,7 @@ language = 'zh_CN'
 extensions = [
     'myst_parser',
     'numpydoc',
+    'sphinx.ext.githubpages',
 ]
 
 # MyST parser configuration
@@ -74,6 +75,3 @@ html_theme = 'pydata_sphinx_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['static']
-
-# Fix GitHub Pages 404 for files with underscore in name, see https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages
-html_extra_path = ['.nojekyll']
