@@ -13,6 +13,9 @@
    :maxdepth: 2
 
    homework
+   key-point
+   snippet
+   errata
 
 页面索引和搜索
 ==================
