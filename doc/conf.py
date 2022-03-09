@@ -45,11 +45,17 @@ language = 'zh_CN'
 extensions = [
     'myst_parser',
     'numpydoc',
+    'sphinx_copybutton',
     'sphinx.ext.githubpages',
+    'nbsphinx',
+    'IPython.sphinxext.ipython_console_highlighting',
 ]
 
 # MyST parser configuration
 myst_enable_extensions = ['dollarmath']
+
+# nbsphinx configuration
+nbsphinx_execute = 'never'
 
 # numpydoc config
 numpydoc_use_plots = True
