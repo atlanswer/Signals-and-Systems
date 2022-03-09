@@ -16,8 +16,8 @@
 索引和搜索
 ==========
 
-* :ref:`genindex`
-* :ref:`modindex`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
 * :ref:`search`
 
 图标由字节跳动 `IconPark <https://iconpark.oceanengine.com/>`_ 提供
