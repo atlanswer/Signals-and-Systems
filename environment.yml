@@ -41,7 +41,7 @@ dependencies:
   - libsodium=1.0.18=h8d14728_1
   - libzlib=1.2.11=h8ffe710_1013
   - markdown-it-py=2.0.1=pyhd8ed1ab_0
-  - markupsafe=2.1.0=py310he2412df_0
+  - markupsafe=2.1.0=py310he2412df_1
   - matplotlib-inline=0.1.3=pyhd8ed1ab_0
   - mdit-py-plugins=0.3.0=pyhd8ed1ab_0
   - mdurl=0.1.0=pyhd8ed1ab_0
@@ -59,7 +59,7 @@ dependencies:
   - pandocfilters=1.5.0=pyhd8ed1ab_0
   - parso=0.8.3=pyhd8ed1ab_0
   - pickleshare=0.7.5=py_1003
-  - pip=22.0.3=pyhd8ed1ab_0
+  - pip=22.0.4=pyhd8ed1ab_0
   - prompt-toolkit=3.0.27=pyha770c72_0
   - pure_eval=0.2.2=pyhd8ed1ab_0
   - pycparser=2.21=pyhd8ed1ab_0
@@ -69,7 +69,7 @@ dependencies:
   - pyparsing=3.0.7=pyhd8ed1ab_0
   - pyrsistent=0.18.1=py310he2412df_0
   - pysocks=1.7.1=py310h5588dad_4
-  - python=3.10.2=h9a09f29_3_cpython
+  - python=3.10.2=h9a09f29_4_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python_abi=3.10=2_cp310
   - pytz=2021.3=pyhd8ed1ab_0
