@@ -8,9 +8,11 @@
    :caption: 信号与系统目录
    :maxdepth: 2
 
+   slide
    homework
    note/index
    snippet
+   material
    errata
 
 索引和搜索
