@@ -9,6 +9,7 @@
    :maxdepth: 2
 
    homework
+   answer/index
    note/index
    snippet
    errata
