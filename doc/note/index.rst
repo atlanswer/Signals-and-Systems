@@ -11,27 +11,27 @@
 
    #. `汉语拼音的四个声调，在波形上反应出来是什么量？ <https://www.zhihu.com/question/38441819>`_
    
-      .. image:: ../temp/WeChat\ Image_20220307222914.png
+      .. image:: ../doc/WeChat\ Image_20220307222914.png
          :width: 50%
 
 #. 阶跃函数缩放
 
-   .. image:: ../temp/WeChat\ Image_20220307220903.png
+   .. image:: ../doc/WeChat\ Image_20220307220903.png
       :width: 50%
-   .. image:: ../temp/WeChat\ Image_20220307221140.png
+   .. image:: ../doc/WeChat\ Image_20220307221140.png
       :width: 50%
-   .. image:: ../temp/WeChat\ Image_20220307221208.png
+   .. image:: ../doc/WeChat\ Image_20220307221208.png
       :width: 50%
 
 #. 思考题
 
    下面是一位同学提供的求解多谐振复合函数基础周期的新解法，大家可以看看，这个思路是否总是可以快速的给出基础周期
 
-   .. image:: ../temp/WeChat\ Image_20220307221345.png
+   .. image:: ../doc/WeChat\ Image_20220307221345.png
 
 #. 卷积图解
 
-   .. image:: ../temp/WeChat\ Image_20220307223419.png
+   .. image:: ../doc/WeChat\ Image_20220307223419.png
 
 #. 典型系统的特性判断
 
