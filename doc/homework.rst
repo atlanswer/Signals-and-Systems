@@ -25,7 +25,9 @@
 #. 1.36
 #. 1.38
 #. 1.42
-#. 用 Python/Wolfram（Mathematica）/MATLAB 画出以下三个信号（横轴范围自定义），并且提供源代码（运行有 errors 和 warnings 扣分）
+#. 用 Python/Wolfram（Mathematica）/MATLAB
+   画出以下三个信号（横轴范围自定义），并且提供源代码（运行有
+   errors 和 warnings 扣分）
 
    #. :math:`\sin(t/10)\times\cos(t/5)`
    #. :math:`\sin[n/10]+\cos[n/5]`
@@ -52,7 +54,9 @@
 #. 教材 2.1（b）
 #. 教材 2.3
 #. 教材 2.7
-#. 针对长度有限的输入序列 :math:`x[n]` 和单位脉冲响应序列 :math:`h[n]`，用 Python/Wolfram（Mathematica）/MATLAB 编写一段一维离散卷积计算代码（使用内置卷积函数不算分），重新计算 2.1（b）
+#. 针对长度有限的输入序列 :math:`x[n]` 和单位脉冲响应序列 :math:`h[n]`，用
+   Python/Wolfram（Mathematica）/MATLAB
+   编写一段一维离散卷积计算代码（使用内置卷积函数不算分），重新计算 2.1（b）
 
 第二部分
 ========
@@ -61,7 +65,9 @@
 #. 教材 2.11
 #. 教材 2.20
 #. 教材 2.23
-#. 证明卷积的第八条性质：在 :math:`f_1(-\infty)=f_2(-\infty)=0` 条件下，:math:`f(t)=f_1(t)*f_2(t)` 的 :math:`i` 阶微（积）分满足 :math:`f^{(i)}(t)=f_1^{(j)}(t)*f_2^{(i-j)}(t)`
+#. 证明卷积的第八条性质：在 :math:`f_1(-\infty)=f_2(-\infty)=0`
+   条件下，:math:`f(t)=f_1(t)*f_2(t)` 的 :math:`i` 阶微（积）分满足
+   :math:`f^{(i)}(t)=f_1^{(j)}(t)*f_2^{(i-j)}(t)`
 
 第三部分
 ========
@@ -96,4 +102,5 @@
 #. 3.61（a）
 #. 3.64
 #. 3.65（d）
-#. 用 Python/Wolfram（Mathematica）/MATLAB 等语言编写计算以及绘制周期连续信号傅里叶级数幅相的代码（可定义截断项，使用内置傅里叶级数函数不算分），重新计算 3.22（b）
+#. 用 Python/Wolfram（Mathematica）/MATLAB
+   等语言编写计算以及绘制周期连续信号傅里叶级数幅相的代码（可定义截断项，使用内置傅里叶级数函数不算分），重新计算 3.22（b）
