@@ -7,18 +7,18 @@
 1.8
   .. image:: assets/1-8.jpg
 
-  (a) :math:`\mathcal{Re}\{x_1(t)\} =`
-      :math:`-2 = 2e^{0t}\cos(0t+\pi)`
-  (b) :math:`\mathcal{Re}\{x_2(t)\} =`
-      :math:`\sqrt{2}\cos{\frac{\pi}{4}}\cos(3t+2\pi) =`
-      :math:`\cos(3t) = e^{0t}\cos(3t+0)`
-  (c) :math:`\mathcal{Re}\{x_3(t)\} =`
-      :math:`e^{-t}\sin(3t+\pi) =`
-      :math:`e^{-t}\cos(3t+\frac{\pi}{2})`
-  (d) :math:`\mathcal{Re}\{x_4(t)\} =`
-      :math:`-e^{-2t}\sin(100t) =`
-      :math:`e^{-2t}\sin(100t+\pi) =`
-      :math:`e^{-2t}\cos(100t+\frac{\pi}{2})`
+  (a) :math:`\mathcal{Re}\{x_1(t)\}`
+      :math:`= -2 = 2e^{0t}\cos(0t+\pi)`
+  (b) :math:`\mathcal{Re}\{x_2(t)\}`
+      :math:`= \sqrt{2}\cos{\frac{\pi}{4}}\cos(3t+2\pi)`
+      :math:`= \cos(3t) = e^{0t}\cos(3t+0)`
+  (c) :math:`\mathcal{Re}\{x_3(t)\}`
+      :math:`= e^{-t}\sin(3t+\pi)`
+      :math:`= e^{-t}\cos(3t+\frac{\pi}{2})`
+  (d) :math:`\mathcal{Re}\{x_4(t)\}`
+      :math:`= -e^{-2t}\sin(100t)`
+      :math:`= e^{-2t}\sin(100t+\pi)`
+      :math:`= e^{-2t}\cos(100t+\frac{\pi}{2})`
 
 1.9
   .. image:: assets/1-9.jpg
@@ -60,30 +60,45 @@
   .. image:: assets/1-36a.jpg
 
 1.38
+  .. image:: assets/1-38.jpg
+  .. image:: assets/1-38-2.jpg
+  .. image:: assets/1-38-3.jpg
+  .. image:: assets/1-38-4.jpg
+  .. image:: assets/1-38a.jpg
+  .. image:: assets/1-38a-2.jpg
 
 1.42
+  .. image:: assets/1-42.jpg
+  .. image:: assets/1-42-2.jpg
+  .. image:: assets/1-42a.jpg
 
-1.27
+1.27 (b, c)
+  .. image:: assets/1-27.jpg
+  .. image:: assets/1-27-2.jpg
+  .. image:: assets/1-27a.jpg
 
-  (b)
-  (c)
+1.28 (d, g)
+  .. image:: assets/1-28.jpg
+  .. image:: assets/1-28a.jpg
+  .. image:: assets/1-28a-2.jpg
 
-1.28
+1.29 (a)
+  .. image:: assets/1-29.jpg
+  .. image:: assets/1-29a.jpg
 
-  (d)
-  (g)
-
-1.29
-
-  (a)
-
-1.31
-
-  (a)
+1.31 (a)
+  .. image:: assets/1-31.jpg
+  .. image:: assets/1-31-2.jpg
+  .. image:: assets/1-31a.jpg
 
 1.40
+  .. image:: assets/1-40.jpg
+  .. image:: assets/1-40a.jpg
 
 1.44
+  .. image:: assets/1-44.jpg
+  .. image:: assets/1-44a.jpg
+  .. image:: assets/1-44a-2.jpg
 
 1.45
 
