@@ -5,6 +5,8 @@
 .. note:: 施工中...
 
 1.8
+  .. image:: assets/1-8.jpg
+
   (a) :math:`\mathcal{Re}\{x_1(t)\} =`
       :math:`-2 = 2e^{0t}\cos(0t+\pi)`
   (b) :math:`\mathcal{Re}\{x_2(t)\} =`
@@ -19,33 +21,43 @@
       :math:`e^{-2t}\cos(100t+\frac{\pi}{2})`
 
 1.9
+  .. image:: assets/1-9.jpg
+  .. image:: assets/1-9a.jpg
 
 1.14
+  .. image:: assets/1-14.jpg
+  .. image:: assets/1-14a.jpg
 
-1.21
+1.21 (d, e, f)
+  .. image:: assets/1-21.jpg
+  .. image:: assets/1-21-2.jpg
+  .. image:: assets/1-21a.jpg
 
-  (d)
-  (e)
-  (f)
+1.22 (g, h)
+  .. image:: assets/1-22.jpg
+  .. image:: assets/1-22a.jpg
 
-1.22
+1.23 (c)
+  .. image:: assets/1-23.jpg
+  .. image:: assets/1-23-2.jpg
+  .. image:: assets/1-23a.jpg
 
-  (g)
-  (h)
-
-1.23
-
-  (c)
-
-1.24
-
-  (b)
+1.24 (b)
+  .. image:: assets/1-24.jpg
+  .. image:: assets/1-24-2.jpg
+  .. image:: assets/1-24a.jpg
 
 1.25
+  .. image:: assets/1-25.jpg
+  .. image:: assets/1-25a.jpg
 
 1.26
+  .. image:: assets/1-26.jpg
+  .. image:: assets/1-26a.jpg
 
 1.36
+  .. image:: assets/1-36.jpg
+  .. image:: assets/1-36a.jpg
 
 1.38
 

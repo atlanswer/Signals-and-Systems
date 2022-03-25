@@ -10,7 +10,7 @@
 #. 老师推荐的文章
 
    #. `汉语拼音的四个声调，在波形上反应出来是什么量？ <https://www.zhihu.com/question/38441819>`_
-   
+
       .. image:: ../doc/WeChat\ Image_20220307222914.png
          :width: 50%
 
