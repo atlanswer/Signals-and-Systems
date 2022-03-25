@@ -22,6 +22,7 @@ dependencies:
   - cryptography=36.0.2=py310ha857299_0
   - decorator=5.1.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
+  - doc8=0.10.1=pyhd8ed1ab_0
   - entrypoints=0.4=pyhd8ed1ab_0
   - executing=0.8.3=pyhd8ed1ab_0
   - idna=3.3=pyhd8ed1ab_0
@@ -55,6 +56,7 @@ dependencies:
   - pandoc=2.17.1.1=h57928b3_0
   - pandocfilters=1.5.0=pyhd8ed1ab_0
   - parso=0.8.3=pyhd8ed1ab_0
+  - pbr=5.8.1=pyhd8ed1ab_0
   - pickleshare=0.7.5=py_1003
   - pip=22.0.4=pyhd8ed1ab_0
   - prompt-toolkit=3.0.27=pyha770c72_0
@@ -74,6 +76,7 @@ dependencies:
   - pyyaml=6.0=py310he2412df_3
   - pyzmq=22.3.0=py310h73ada01_1
   - requests=2.27.1=pyhd8ed1ab_0
+  - restructuredtext_lint=1.4.0=pyhd8ed1ab_0
   - rstcheck=3.3.1=pyh9f0ad1d_0
   - setuptools=60.10.0=py310h5588dad_0
   - six=1.16.0=pyh6c4a22f_0
@@ -89,6 +92,7 @@ dependencies:
   - sphinxcontrib-serializinghtml=1.1.5=pyhd8ed1ab_1
   - sqlite=3.37.1=h8ffe710_0
   - stack_data=0.2.0=pyhd8ed1ab_0
+  - stevedore=3.5.0=py310h5588dad_2
   - testpath=0.6.0=pyhd8ed1ab_0
   - tk=8.6.12=h8ffe710_0
   - tornado=6.1=py310he2412df_2
