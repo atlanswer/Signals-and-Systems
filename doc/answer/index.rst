@@ -6,6 +6,6 @@
 
 .. toctree::
     :caption: 列表
-    :maxdepth: 2
+    :maxdepth: 1
 
     chapter1

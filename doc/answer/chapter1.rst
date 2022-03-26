@@ -100,7 +100,6 @@
   .. image:: assets/1-44a.jpg
   .. image:: assets/1-44a-2.jpg
 
-1.45
-
-  (a)
-  (b)
+1.45 (a, b)
+  .. image:: assets/1-45.jpg
+  .. image:: assets/1-45a.jpg
