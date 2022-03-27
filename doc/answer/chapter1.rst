@@ -100,6 +100,7 @@
 1.31 (a)
   .. image:: assets/1-31.jpg
   .. image:: assets/1-31-2.jpg
+  .. image:: assets/1-31-3.jpg
   .. image:: assets/1-31a.jpg
 
 1.40
