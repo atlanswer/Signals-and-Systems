@@ -67,6 +67,17 @@
   .. image:: assets/1-38a.jpg
   .. image:: assets/1-38a-2.jpg
 
+  for (a), an alternative solution:
+
+  .. math::
+
+    \begin{align}
+    \int_{-\infty}^{\infty}\delta(2t)\mathrm{d}t &= 1 \\
+    \int_{-\infty}^{\infty}\frac{1}{2}\delta(2t)\mathrm{d}(2t) &= 1 \\
+    \int_{-\infty}^{\infty}\frac{1}{2}\delta(t)\mathrm{d}t &= \int_{-\infty}^{\infty}\delta(2t)\mathrm{d}t \\
+    \frac{1}{2}\delta(t) &= \delta(2t)
+    \end{align}
+
 1.42
   .. image:: assets/1-42.jpg
   .. image:: assets/1-42-2.jpg
