@@ -78,6 +78,8 @@
     \frac{1}{2}\delta(t) &= \delta(2t)
     \end{align}
 
+  .. note:: 如可能，应在示意图中标明解析式。注意（b）中（f）图，:math:`t < 0` 时积分结果为 :math:`\frac{1}{2}e^{t/\Delta}`，而不是 :math:`\frac{1}{2}e^{\textcolor{red}{-}t/\Delta}`。
+
 1.42
   .. image:: assets/1-42.jpg
   .. image:: assets/1-42-2.jpg
@@ -97,6 +99,33 @@
   .. image:: assets/1-29.jpg
   .. image:: assets/1-29a.jpg
 
+  Let us now assume that the input-output relationship is changed to :math:`y[n] = \mathcal{Re}\{e^{j\pi n/4}x[n]\}`. Also, consider two inputs to the system such that
+
+  .. math::
+
+    x_1[n] \xrightarrow{S} y_1[n] = \mathcal{Re}\{e^{j\pi n/4}x_1[n]\}
+
+  and
+
+  .. math::
+
+    x_2[n] \xrightarrow{S} y_2[n] = \mathcal{Re}\{e^{j\pi n/4}x_2[n]\}
+
+  Now consider a third input :math:`x_3[n] = x_1[n] + x_2[n]`. The corresponding system output will be
+
+  .. math::
+
+    \begin{align}
+      y_3[n] &= \mathcal{Re}\{e^{j\pi n/4}x_3[n]\} \\
+      &= \cos(\pi n/4)\mathcal{Re}\{x_3[n]\} - \sin(\pi n/4)\mathcal{Im}\{x_3[n]\} \\
+      &= \cos(\pi n/4)\mathcal{Re}\{x_1[n]\} + \cos(\pi n/4)\mathcal{Re}\{x_2[n]\} \\
+      &\quad\; - \sin(\pi n/4)\mathcal{Im}\{x_1[n]\} - \sin(\pi n/4)\mathcal{Im}\{x_2[n]\} \\
+      &= \mathcal{Re}\{e^{j\pi n/4}x_1[n]\} + \mathcal{Re}\{e^{j\pi n/4}x_2[n]\} \\
+      &= y_1[n] + y_2[n]
+    \end{align}
+
+  Therefore, we may conclude that the system is additive.
+
 1.31 (a)
   .. image:: assets/1-31.jpg
   .. image:: assets/1-31-2.jpg
@@ -111,6 +140,8 @@
   .. image:: assets/1-44.jpg
   .. image:: assets/1-44a.jpg
   .. image:: assets/1-44a-2.jpg
+
+  .. note:: 证明两种表达方式等价，需要完成双向的推导。
 
 1.45 (a, b)
   .. image:: assets/1-45.jpg
