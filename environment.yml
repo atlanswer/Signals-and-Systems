@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - alabaster=0.7.12=py_0
+  - appdirs=1.4.4=pyh9f0ad1d_0
   - asttokens=2.0.5=pyhd8ed1ab_0
   - attrs=21.4.0=pyhd8ed1ab_0
   - babel=2.9.1=pyh44b312d_0
@@ -31,6 +32,7 @@ dependencies:
   - importlib_resources=5.6.0=pyhd8ed1ab_0
   - ipython=8.2.0=py310h5588dad_0
   - jedi=0.18.1=py310h5588dad_0
+  - jinja2=3.0.3=pyhd8ed1ab_0
   - jsonschema=4.4.0=pyhd8ed1ab_0
   - jupyter_client=7.1.2=pyhd8ed1ab_0
   - jupyter_core=4.9.2=py310h5588dad_0
@@ -62,12 +64,15 @@ dependencies:
   - prompt-toolkit=3.0.27=pyha770c72_0
   - pure_eval=0.2.2=pyhd8ed1ab_0
   - pycparser=2.21=pyhd8ed1ab_0
+  - pydantic=1.8.2=py310he2412df_2
   - pydata-sphinx-theme=0.8.1=pyhd8ed1ab_0
+  - pygls=0.11.3=pyhd8ed1ab_0
   - pygments=2.11.2=pyhd8ed1ab_0
   - pyopenssl=22.0.0=pyhd8ed1ab_0
   - pyparsing=3.0.7=pyhd8ed1ab_0
   - pyrsistent=0.18.1=py310he2412df_0
   - pysocks=1.7.1=py310h5588dad_4
+  - pyspellchecker=0.6.3=pyhd8ed1ab_0
   - python=3.10.4=h9a09f29_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python_abi=3.10=2_cp310
@@ -82,6 +87,7 @@ dependencies:
   - six=1.16.0=pyh6c4a22f_0
   - snowballstemmer=2.2.0=pyhd8ed1ab_0
   - soupsieve=2.3.1=pyhd8ed1ab_0
+  - sphinx=4.4.0=pyh6c4a22f_1
   - sphinx-copybutton=0.5.0=pyhd8ed1ab_0
   - sphinxcontrib-applehelp=1.0.2=py_0
   - sphinxcontrib-devhelp=1.0.2=py_0
@@ -112,12 +118,6 @@ dependencies:
   - zeromq=4.3.4=h0e60522_1
   - zipp=3.7.0=pyhd8ed1ab_1
   - pip:
-    - appdirs==1.4.4
     - docutils==0.17.1
     - esbonio==0.10.2
-    - jinja2==3.0.3
-    - pydantic==1.8.2
-    - pygls==0.11.3
-    - pyspellchecker==0.6.3
-    - sphinx==4.5.0
     - typeguard==2.13.3
