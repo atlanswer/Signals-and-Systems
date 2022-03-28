@@ -4,6 +4,8 @@
 
 .. note:: 施工中...
 
+  #. 装订作业时避免盖住字迹
+
 1.8
   .. image:: assets/1-8.jpg
 
@@ -59,6 +61,8 @@
   .. image:: assets/1-36.jpg
   .. image:: assets/1-36a.jpg
 
+  .. warning:: （b，c）
+
 1.38
   .. image:: assets/1-38.jpg
   .. image:: assets/1-38-2.jpg
@@ -85,10 +89,23 @@
   .. image:: assets/1-42-2.jpg
   .. image:: assets/1-42a.jpg
 
+  \(c\) Let us name the output of system 1 as :math:`w[n]` and the output of system 2 as :math:`z[n]`. Then,
+
+  .. math::
+
+    \begin{align}
+    y[n] &= z[2n] = w[2n] + \frac{1}{2}w[2n-1] + \frac{1}{4}w[2n-2] \\
+    &= x[n] + \frac{1}{4}x[n-1]
+    \end{align}
+
+  The system is linear and time-invariant.
+
 1.27 (b, c)
   .. image:: assets/1-27.jpg
   .. image:: assets/1-27-2.jpg
   .. image:: assets/1-27a.jpg
+
+  .. note:: 无记忆系统的输出仅与当前输入有关；若输出依赖于未来的输入，系统亦是有记忆的。
 
 1.28 (d, g)
   .. image:: assets/1-28.jpg
