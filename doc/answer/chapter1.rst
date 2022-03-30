@@ -53,6 +53,7 @@
 1.25
   .. image:: assets/1-25.jpg
   .. image:: assets/1-25a.jpg
+  .. warning:: （f）周期性判断
 
 1.26
   .. image:: assets/1-26.jpg
@@ -97,11 +98,25 @@
     \begin{align}
     y[n] &= z[2n] = w[2n] + \frac{1}{2}w[2n-1] + \frac{1}{4}w[2n-2] \\
     &= x[n] + \frac{1}{4}x[n-1]
+    \text{.}
     \end{align}
 
   The system is linear and time-invariant.
 
+  or rewrite the relationship of system 1 as
+
+  .. math::
+
+    y[n] = \left[1+(-1)^n\right]\frac{x[\frac{n}{2}]}{2}
+    \text{,}
+
+  and continue connecting them in series.
+
   .. warning:: （c）
+
+作图题
+  #. 合理选择坐标范围：横坐标上，对周期信号，推荐显示至少两个周期，对衰减的信号，显示到其接近收敛；纵坐标上，图形主要部分不应被裁减
+  #. 合理选择采样点数：就作图而言，为了得到平滑的图形，采样率等于或略大于两倍信号最高频率一般是不够的，推荐采样率在五倍信号最高频率以上
 
 1.27 (b, c)
   .. image:: assets/1-27.jpg
