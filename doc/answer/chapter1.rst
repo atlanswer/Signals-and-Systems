@@ -4,6 +4,7 @@
 
 .. note:: 施工中...
 
+  #. 装订前确认页面顺序
   #. 装订作业时避免盖住字迹
 
 1.8
@@ -99,6 +100,8 @@
     \end{align}
 
   The system is linear and time-invariant.
+
+  .. warning:: （c）
 
 1.27 (b, c)
   .. image:: assets/1-27.jpg
