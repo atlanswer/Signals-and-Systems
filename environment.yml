@@ -24,6 +24,7 @@ dependencies:
   - decorator=5.1.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
   - doc8=0.10.1=pyhd8ed1ab_0
+  - docutils=0.17.1=py310h5588dad_1
   - entrypoints=0.4=pyhd8ed1ab_0
   - executing=0.8.3=pyhd8ed1ab_0
   - idna=3.3=pyhd8ed1ab_0
@@ -31,10 +32,11 @@ dependencies:
   - importlib-metadata=4.11.3=py310h5588dad_0
   - importlib_resources=5.6.0=pyhd8ed1ab_0
   - ipython=8.2.0=py310h5588dad_0
+  - ipython_genutils=0.2.0=py_1
   - jedi=0.18.1=py310h5588dad_0
-  - jinja2=3.0.3=pyhd8ed1ab_0
+  - jinja2=3.1.1=pyhd8ed1ab_0
   - jsonschema=4.4.0=pyhd8ed1ab_0
-  - jupyter_client=7.1.2=pyhd8ed1ab_0
+  - jupyter_client=7.2.0=pyhd8ed1ab_0
   - jupyter_core=4.9.2=py310h5588dad_0
   - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
   - libffi=3.4.2=h8ffe710_5
@@ -48,11 +50,13 @@ dependencies:
   - mistune=0.8.4=py310he2412df_1005
   - myst-parser=0.17.0=pyhd8ed1ab_0
   - nbclient=0.5.13=pyhd8ed1ab_0
-  - nbconvert=6.4.4=py310h5588dad_0
+  - nbconvert=6.4.5=pyhd8ed1ab_1
+  - nbconvert-core=6.4.5=pyhd8ed1ab_1
+  - nbconvert-pandoc=6.4.5=pyhd8ed1ab_1
   - nbformat=5.2.0=pyhd8ed1ab_0
   - nbsphinx=0.8.8=pyhd8ed1ab_0
   - nest-asyncio=1.5.4=pyhd8ed1ab_0
-  - numpydoc=1.2=pyhd8ed1ab_0
+  - numpydoc=1.2.1=pyhd8ed1ab_0
   - openssl=1.1.1n=h8ffe710_0
   - packaging=21.3=pyhd8ed1ab_0
   - pandoc=2.17.1.1=h57928b3_0
@@ -83,11 +87,11 @@ dependencies:
   - requests=2.27.1=pyhd8ed1ab_0
   - restructuredtext_lint=1.4.0=pyhd8ed1ab_0
   - rstcheck=3.3.1=pyh9f0ad1d_0
-  - setuptools=61.1.1=py310h5588dad_0
+  - setuptools=61.2.0=py310h5588dad_3
   - six=1.16.0=pyh6c4a22f_0
   - snowballstemmer=2.2.0=pyhd8ed1ab_0
   - soupsieve=2.3.1=pyhd8ed1ab_0
-  - sphinx=4.4.0=pyh6c4a22f_1
+  - sphinx=4.5.0=pyh6c4a22f_0
   - sphinx-copybutton=0.5.0=pyhd8ed1ab_0
   - sphinxcontrib-applehelp=1.0.2=py_0
   - sphinxcontrib-devhelp=1.0.2=py_0
@@ -118,6 +122,5 @@ dependencies:
   - zeromq=4.3.4=h0e60522_1
   - zipp=3.7.0=pyhd8ed1ab_1
   - pip:
-    - docutils==0.17.1
     - esbonio==0.10.2
     - typeguard==2.13.3
