@@ -112,6 +112,8 @@
 
   and continue connecting them in series.
 
+  .. note:: （b）若 :math:`y_1(x)=x^2` 与 :math:`y_2(x)=\sqrt{x}` 级联，:math:`y(x)=|x|` 是非线性系统，不能作为反例。
+
   .. warning:: （c）
 
 作图题
