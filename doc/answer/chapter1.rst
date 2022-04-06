@@ -4,6 +4,27 @@
 
 .. note::
 
+  .. list-table:: 评分标准（总分 20）
+    :header-rows: 1
+
+    * - 评分
+      - 所需分数
+      - 对应分数
+    * - :math:`\text{A}`
+      - :math:`[15, 20]`
+      - :math:`100`
+    * - :math:`\text{B}`
+      - :math:`[10, 15)`
+      - :math:`85`
+    * - :math:`\text{C}`
+      - :math:`[5, 10)`
+      - :math:`70`
+    * - :math:`\text{D}`
+      - :math:`[0, 5)`
+      - :math:`0`
+
+.. note::
+
   #. 装订前确认页面顺序
   #. 装订作业时避免盖住字迹
 
