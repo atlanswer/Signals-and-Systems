@@ -14,12 +14,21 @@
    .. image:: assets/2-3a.jpg
 
 2.7
+   .. image:: assets/2-7.jpg
+   .. image:: assets/2-7-2.jpg
+   .. image:: assets/2-7a.jpg
+   .. image:: assets/2-7a-2.jpg
 
 离散卷积计算
 
 2.10
+   .. image:: assets/2-10.jpg
+   .. image:: assets/2-10a.jpg
 
 2.11
+   .. image:: assets/2-11.jpg
+   .. image:: assets/2-11a.jpg
+   .. image:: assets/2-11a-2.jpg
 
 2.20
 
