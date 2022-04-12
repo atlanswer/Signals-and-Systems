@@ -6,8 +6,12 @@
    第二章答案施工中...
 
 2.1（b）
+   .. image:: assets/2-1.jpg
+   .. image:: assets/2-1a.jpg
 
 2.3
+   .. image:: assets/2-3.jpg
+   .. image:: assets/2-3a.jpg
 
 2.7
 
