@@ -31,8 +31,15 @@
    .. image:: assets/2-11a-2.jpg
 
 2.20
+   .. image:: assets/2-20.jpg
+   .. image:: assets/2-20a.jpg
+   .. image:: assets/2-20a-2.jpg
 
 2.23
+   .. image:: assets/2-23.jpg
+   .. image:: assets/2-23-2.jpg
+   .. image:: assets/2-23a.jpg
+   .. image:: assets/2-23a-2.jpg
 
 证明卷积性质
 
