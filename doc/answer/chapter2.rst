@@ -44,11 +44,23 @@
 证明卷积性质
 
 2.28（a，c）
+   .. image:: assets/2-28.jpg
+   .. image:: assets/2-28a.jpg
 
 2.39（a）
+   .. image:: assets/2-39.jpg
+   .. image:: assets/2-39a.jpg
+   .. image:: assets/2-39a-2.jpg
 
 2.40
+   .. image:: assets/2-40.jpg
+   .. image:: assets/2-40a.jpg
+   .. image:: assets/2-40a-2.jpg
 
 2.53（c-i）
+   .. image:: assets/2-53.jpg
+   .. image:: assets/2-53a.jpg
 
 2.54（c-i）
+   .. image:: assets/2-54.jpg
+   .. image:: assets/2-54a.jpg
