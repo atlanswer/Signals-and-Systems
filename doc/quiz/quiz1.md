@@ -22,11 +22,11 @@
    > Consider two inputs to the system such that
    >
    > $$
-   > x_1[n]\xrightarrow{S}y_1[n]=\mathrel{Re}\{x_1[n]\}
-   > \quad\text{and}\quad x_2[n]\xrightarrow{S}y_2[n]
-   > =\mathrel{Re}\{x_2[n]\}
-   > \text{.}
-   > $$
+     x_1[n]\xrightarrow{S}y_1[n]=\mathrel{Re}\{x_1[n]\}
+     \quad\text{and}\quad x_2[n]\xrightarrow{S}y_2[n]
+     =\mathrel{Re}\{x_2[n]\}
+     \text{.}
+     $$
    >
    > Additivity:
    >
@@ -34,14 +34,14 @@
    > The corresponding system output will be
    >
    > $$
-   > \begin{aligned}
-   > y_3[n] &= \mathrel{Re}\{x_3[n]\} \\
-   > &= \mathrel{Re}\{x_1[n]+x_2[n]\} \\
-   > &= \mathrel{Re}\{x_1[n]\}+\mathrel{Re}\{x_2[n]\} \\
-   > &= y_1[n]+y_2[n]
-   > \text{.}
-   > \end{aligned}
-   > $$
+     \begin{aligned}
+     y_3[n] &= \mathrel{Re}\{x_3[n]\} \\
+     &= \mathrel{Re}\{x_1[n]+x_2[n]\} \\
+     &= \mathrel{Re}\{x_1[n]\}+\mathrel{Re}\{x_2[n]\} \\
+     &= y_1[n]+y_2[n]
+     \text{.}
+     \end{aligned}
+     $$
    >
    > Therefore, we may conclude that the system is additive.
    >
@@ -50,43 +50,43 @@
    > Let
    >
    > $$
-   > x_1[n] = r[n] + js[n]
-   > $$
+     x_1[n] = r[n] + js[n]
+     $$
    >
    > be an arbitrary complex input with real and imaginary
    > parts $r[n]$ and $s[n]$, respectively, so that the
    > corresponding output is
    >
    > $$
-   > y_1[n] = r[n]
-   > \text{.}
-   > $$
+     y_1[n] = r[n]
+     \text{.}
+     $$
    >
    > Now, consider scaling $x_1[n]$ by a complex number,
    > for example, $a = j$; i.e., consider the input
    >
    > $$
-   > \begin{aligned}
-   > x_2[n] &= jx_1[n] = j(r[n] + js[n]) \\
-   > &= -s[n] + jr[n]
-   > \text{.}
-   > \end{aligned} 
-   > $$
+     \begin{aligned}
+     x_2[n] &= jx_1[n] = j(r[n] + js[n]) \\
+     &= -s[n] + jr[n]
+     \text{.}
+     \end{aligned} 
+     $$
    >
    > The output corresponding to $x_2[n]$ is
    >
    > $$
-   > y_2[n] = \mathrel{Re}\{x_2[n]\} = -s[n]
-   > \text{,}
-   > $$
+     y_2[n] = \mathrel{Re}\{x_2[n]\} = -s[n]
+     \text{,}
+     $$
    >
    > which is not equal to the scaled version of
    > $y_1[n]$,
    >
    > $$
-   > ay_1[n] = jr[n]
-   > \text{.}
-   > $$
+     ay_1[n] = jr[n]
+     \text{.}
+     $$
    >
    > We conclude that the system violates the
    > homogeneity property and hence is not linear.
