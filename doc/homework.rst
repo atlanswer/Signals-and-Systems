@@ -2,6 +2,9 @@
 作业
 ####
 
+.. contents::
+   :depth: 2
+
 .. attention::
    | 作业纸质版请交给学委，PDF 版本提交至 `坚果云 <https://workspace.jianguoyun.com/inbox/collect/05de5e9deca54501b2e676b94d0229c2/submit>`_
    | 命名方式：``姓名-学号-Ch{i}.pdf``

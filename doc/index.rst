@@ -11,6 +11,7 @@
    slide
    homework
    answer/index
+   quiz/index
    note/index
    snippet
    material

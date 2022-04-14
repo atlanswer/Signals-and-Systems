@@ -22,7 +22,7 @@ author = 'X. Zhao'
 copyright = 'CC BY-NC-SA 4.0'
 
 # The full version, including alpha/beta/rc tags
-release = '0.2.1'
+release = '0.2.2'
 
 
 # -- General configuration ---------------------------------------------------
@@ -53,6 +53,7 @@ extensions = [
 
 # MyST parser configuration
 myst_enable_extensions = ['dollarmath']
+myst_dmath_allow_labels = True
 
 # nbsphinx configuration
 nbsphinx_execute = 'never'
