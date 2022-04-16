@@ -91,6 +91,26 @@
    > We conclude that the system violates the
    > homogeneity property and hence is not linear.
 1. 将下面的式子写成实虚部之和的形式：$i^i$
+   > Recall Euler's formula:
+   > 
+   > $$
+     e^{ix} = \cos(x) + i\sin(x)
+     \text{.}
+     $$
+   >
+   > Consider $x = \frac{\pi}{2}$, we get
+   >
+     $$
+     i = e^{i\frac{\pi}{2}}
+     \text{.}
+     $$
+   >
+   > Substitute $i$ in the original expression:
+   >
+   > $$
+     i^i = \left(e^{i\frac{\pi}{2}}\right)^i
+     = e^{ii\frac{\pi}{2}} = e^{-\frac{\pi}{2}}
+     $$
 1. 判断下面的系统是否是周期系统，如果是，写出基础周期：$e^{jM(2\pi/N)n}$
 
 ## 第二章
