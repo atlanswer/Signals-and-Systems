@@ -100,7 +100,7 @@
    >
    > Consider $x = \frac{\pi}{2}$, we get
    >
-     $$
+   > $$
      i = e^{i\frac{\pi}{2}}
      \text{.}
      $$
@@ -112,6 +112,17 @@
      = e^{ii\frac{\pi}{2}} = e^{-\frac{\pi}{2}}
      $$
 1. 判断下面的系统是否是周期系统，如果是，写出基础周期：$e^{jM(2\pi/N)n}$
+   > 参考练习 1.35
+   >
+   > Assume that $N_0$ is the minimum positive period, we want
+   > to find the smallest $N_0$ such that $M(2\pi/N)N_0=2\pi k$
+   > or $N_0=kN/M$, where $k$ is an integer.
+   >
+   > If $N_0$ has to be an integer, then $N_0$ must be a multiple
+   > of $M/k$ and $M/k$ must be an integer. This implies that
+   > $M/k$ is a divisor of both $M$ and $N$. Also, if we want the
+   > smallest possible $N_0$, then $M/k$ should be the GCD of
+   > $M$ and $N$. Therefore, $N_0 = N/\operatorname{gcd}(M, N)$.
 
 ## 第二章
 
@@ -121,10 +132,35 @@
 
 1. 计算输入信号和系统冲激响应的卷积并画出结果图形：
 
-$$
-   x(t) = e^{2t}u(-t)\text{, }
-   h(t) = u(t - 3)
-$$
+   $$
+      x(t) = e^{2t}u(-t)\text{, }
+      h(t) = u(t - 3)
+   $$
+
+   > 参考例题 2.8
+   >
+   > The signals $x(\tau)$ and $h(t-\tau)$ are plotted as functions
+   > of $\tau$ in Figure 2.22(a). When $t-3\leq0$, the product of
+   > $x(\tau)$ and $h(t-\tau)$ is nonzero for $-\infty<\tau<t-3$,
+   > and the convolution integral becomes:
+   >
+   > $$
+     y(t) = \int_{-\infty}^{t-3}e^{2\tau}\mathrm{d}\tau
+     = \frac{1}{2} e^{2(t-3)}
+     \text{.}\tag{2.37}
+     $$
+   >
+   > For $t-3\geq0$, the product $x(\tau)h(t-\tau)$ is nonzero
+   > for $-\infty<\tau<0$, so that the convolution integral is
+   >
+   > $$
+     y(t) = \int_{-\infty}^0 e^{2\tau}\mathrm{d}\tau
+     = \frac{1}{2}\text{.}\tag{2.38}
+     $$
+   >
+   > The resulting signal $y(t)$ is plotted in Figure 2.22(b).
+   >
+   > ![Figure 2.22b](assets/2-8a.jpg)
 
 2. 在 initial rest 的前提下，求下面微分方程的解：
 
