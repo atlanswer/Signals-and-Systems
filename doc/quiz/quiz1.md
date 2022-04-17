@@ -11,7 +11,7 @@
 ```
 
 1. 判断并简要解释下面的系统是否为线性系统：$y[n] = \mathcal{Re}\{x[n]\}$
-   > 参考例题 1.19，练习 1.29
+   > 参考例题 1.19，作业题 1.29
    >
    > In checking the linearity of a system, it is
    > important to remember that the system must
@@ -112,7 +112,7 @@
      = e^{ii\frac{\pi}{2}} = e^{-\frac{\pi}{2}}
      $$
 1. 判断下面的系统是否是周期系统，如果是，写出基础周期：$e^{jM(2\pi/N)n}$
-   > 参考练习 1.35
+   > 参考作业题 1.35
    >
    > Assume that $N_0$ is the minimum positive period, we want
    > to find the smallest $N_0$ such that $M(2\pi/N)N_0=2\pi k$
@@ -246,7 +246,7 @@ $
 1. 求 $\mathrm{d}x(t)/\mathrm{d}t$ 的傅里叶变换
 1. 求 $x(\omega)$ 的傅里叶逆变换
 
-> 参考练习 4.9
+> 参考作业题 4.9
 >
 > ![Figure S4.9](assets/4-9a.jpg)
 >
