@@ -222,7 +222,7 @@
    > 参考例题 3.9
    >
    > $$
-     s(t) = \pm\sqrt{2}\sin(\pi t)
+     x(t) = \pm\sqrt{2}\sin(\pi t)
      \text{.}
      $$
 
@@ -290,7 +290,7 @@ $
      $$
 > 5.
 >    $$
-     \mathcal{FT}\{x(\omega)\}=\frac{1}{2\pi}
+     \mathcal{F^{-1}}\{x(\omega)\}=\frac{1}{2\pi}
      \left(-\frac{\sin t}{jt^2}+\frac{e^{jt}}{jt}\right)
      \text{.}
      $$
