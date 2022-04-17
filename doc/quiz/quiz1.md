@@ -172,9 +172,9 @@
    > 参考例题 2.14
    >
    > $$
-   > y(t) = \frac{1}{5}\left[e^{3t}-e^{-2t}\right]u(t)
-   > \text{.}\tag{2.108}
-   > $$
+     y(t) = \frac{1}{5}\left[e^{3t}-e^{-2t}\right]u(t)
+     \text{.}\tag{2.108}
+     $$
 
 ## 第三章
 
@@ -193,9 +193,9 @@
       >
       > $$
         \begin{aligned}
-        a_k &= \frac{1}{N}\sum_{n=\lang N\rang}
+        a_k &= \frac{1}{N}\sum_{n=\langle N\rangle}
         x[n]e^{-jk\omega_0n}
-        = \frac{1}{N}\sum_{n=\lang N\rang}x[n]
+        = \frac{1}{N}\sum_{n=\langle N\rangle}x[n]
         e^{-jk(2\pi/N)n} \\
         &= \frac{1}{N}\sum_{n=-N_1}^{N_1}
         e^{-jk(2\pi/N)n} \\
@@ -205,9 +205,9 @@
         &= \begin{cases}
         \frac{1}{N}\frac{\sin[2\pi k(N_1+1/2)/N]}
         {\sin(\pi k/N)}
-        &k\neq 0,\plusmn N,\plusmn2N,\ldots \\
+        &k\neq 0,\pm N,\pm 2N,\ldots \\
         \frac{2N_1+1}{N}
-        &k=0,\plusmn N,\plusmn 2N,\ldots
+        &k=0,\pm N,\pm 2N,\ldots
         \end{cases}
         \end{aligned}
         $$
@@ -222,7 +222,8 @@
    > 参考例题 3.9
    >
    > $$
-     s(t) = \plusmn\sqrt{2}\sin(\pi t)
+     s(t) = \pm\sqrt{2}\sin(\pi t)
+     \text{.}
      $$
 
 ## 第四章
@@ -243,18 +244,23 @@ $
 1. 取前一步 $\mathop{X}(j\omega)$ 的实部，证明它就是 $x(t)$ 偶部的傅里叶变换
 1. 求 $x(t)$ 奇部的傅里叶变换
 1. 求 $\mathrm{d}x(t)/\mathrm{d}t$ 的傅里叶变换
-1. 求 $x(\omega)$ 的傅里叶变换
+1. 求 $x(\omega)$ 的傅里叶逆变换
 
 > 参考练习 4.9
+>
+> ![Figure S4.9](assets/4-9a.jpg)
 >
 > 1.
 >    We may express the signal $x(t)$ in terms od the rectangular
 >    pulse $y(t)$ shown in Figure S4.9 as follows
+>
 >    $$
      x(t) = \int_{-\infty}^t y(t)\mathrm{d}t-u(t-\frac{1}{2})
      \text{.}
      $$
+>
 >    Using the integration property of the Fourier transform, we have
+>
 >    $$
      \begin{aligned}
      \mathop{X}(j\omega) &= \frac{2\sin(\omega/2)}{j\omega^2}
@@ -264,6 +270,7 @@ $
      \text{.}
      \end{aligned}
      $$
+>
 > 2.
 >    $$\mathcal{Re}\{\mathop{X}(j\omega)\}=\frac{\sin\omega}{\omega}
      \text{.}$$
@@ -284,6 +291,6 @@ $
 > 5.
 >    $$
      \mathcal{FT}\{x(\omega)\}=\frac{1}{2\pi}
-     \left(\frac{-\sin t}{jt^2}+\frac{e^{jt}}{jt}\right)
+     \left(-\frac{\sin t}{jt^2}+\frac{e^{jt}}{jt}\right)
      \text{.}
      $$
