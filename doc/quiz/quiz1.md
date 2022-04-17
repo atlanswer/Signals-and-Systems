@@ -164,10 +164,17 @@
 
 2. 在 initial rest 的前提下，求下面微分方程的解：
 
-$$
-   \frac{\mathrm{d}y(t)}{\mathrm{d}t} + 2y(t)
-   = e^{3t}u(t)
-$$
+   $$
+      \frac{\mathrm{d}y(t)}{\mathrm{d}t} + 2y(t)
+      = e^{3t}u(t)
+   $$
+
+   > 参考例题 2.14
+   >
+   > $$
+   > y(t) = \frac{1}{5}\left[e^{3t}-e^{-2t}\right]u(t)
+   > \text{.}\tag{2.108}
+   > $$
 
 ## 第三章
 
@@ -181,12 +188,42 @@ $$
             1 &|n|\leq N_1 \\
             0 &|n| > N_1    
          \end{cases}
-    $
+   $
+      > 参考例题 3.12
+      >
+      > $$
+        \begin{aligned}
+        a_k &= \frac{1}{N}\sum_{n=\lang N\rang}
+        x[n]e^{-jk\omega_0n}
+        = \frac{1}{N}\sum_{n=\lang N\rang}x[n]
+        e^{-jk(2\pi/N)n} \\
+        &= \frac{1}{N}\sum_{n=-N_1}^{N_1}
+        e^{-jk(2\pi/N)n} \\
+        &= \frac{1}{N}e^{jk(2\pi/N)N_1}
+        \left(\frac{1-e^{-jk2\pi(2N_1+1)/N}}
+        {1-e^{-jk(2\pi/N)}}\right) \\
+        &= \begin{cases}
+        \frac{1}{N}\frac{\sin[2\pi k(N_1+1/2)/N]}
+        {\sin(\pi k/N)}
+        &k\neq 0,\plusmn N,\plusmn2N,\ldots \\
+        \frac{2N_1+1}{N}
+        &k=0,\plusmn N,\plusmn 2N,\ldots
+        \end{cases}
+        \end{aligned}
+        $$
+
+
 1. 写出一个同时满足如下条件的一个信号 $x(t)$ 表达式：
    1. $x(t)$ 为实函数，奇对称
    1. $x(t)$ 是周期信号，周期为 $2$，傅里叶级数系数为 $a_k$
    1. $a_k = 0\text{, for }|k|>1$
    1. $\frac{1}{2}\int_{0}^{2}|x(t)|^2\mathrm{d}t = 1$
+
+   > 参考例题 3.9
+   >
+   > $$
+     s(t) = \plusmn\sqrt{2}\sin(\pi t)
+     $$
 
 ## 第四章
 
@@ -207,3 +244,46 @@ $
 1. 求 $x(t)$ 奇部的傅里叶变换
 1. 求 $\mathrm{d}x(t)/\mathrm{d}t$ 的傅里叶变换
 1. 求 $x(\omega)$ 的傅里叶变换
+
+> 参考练习 4.9
+>
+> 1.
+>    We may express the signal $x(t)$ in terms od the rectangular
+>    pulse $y(t)$ shown in Figure S4.9 as follows
+>    $$
+     x(t) = \int_{-\infty}^t y(t)\mathrm{d}t-u(t-\frac{1}{2})
+     \text{.}
+     $$
+>    Using the integration property of the Fourier transform, we have
+>    $$
+     \begin{aligned}
+     \mathop{X}(j\omega) &= \frac{2\sin(\omega/2)}{j\omega^2}
+     +\pi\delta(\omega)-\mathcal{FT}\{u(t-\frac{1}{2})\} \\
+     &= \frac{\sin\omega}{j\omega^2}
+     -\frac{e^{-j\omega}}{j\omega}
+     \text{.}
+     \end{aligned}
+     $$
+> 2.
+>    $$\mathcal{Re}\{\mathop{X}(j\omega)\}=\frac{\sin\omega}{\omega}
+     \text{.}$$
+>    
+>    $$\mathcal{Ev}\{x(t)\}=\frac{x(t)+x(-t)}{2}\text{.}$$
+> 3.
+>    $$
+     \mathcal{FT}\{\mathcal{Od}\{x(t)\}\} =
+     \frac{\sin\omega}{j\omega^2} - \frac{\cos\omega}{j\omega}
+     \text{.}
+     $$
+> 4.
+>    $$
+     \mathcal{FT}\{\frac{\mathrm{d}x(t)}{\mathrm{d}t}\} =
+     \frac{\sin\omega}{\omega} - e^{-j\omega}
+     \text{.}
+     $$
+> 5.
+>    $$
+     \mathcal{FT}\{x(\omega)\}=\frac{1}{2\pi}
+     \left(\frac{-\sin t}{jt^2}+\frac{e^{jt}}{jt}\right)
+     \text{.}
+     $$
