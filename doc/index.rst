@@ -4,8 +4,10 @@
 
 欢迎浏览 2022 年春《信号与系统》课程主页
 
+目录
+====
+
 .. toctree::
-   :caption: 信号与系统目录
    :maxdepth: 2
 
    slide
@@ -16,6 +18,14 @@
    snippet
    material
    errata
+
+网页地址
+========
+
+- Netlify（应该较快）:
+   - https://signals-and-systems.netlify.app
+   - https://signals-and-systems.waferlab.dev
+- GitHub Pages（也许较慢）: https://atlanswer.github.io/signals-and-systems
 
 CI 状态
 ========
