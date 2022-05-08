@@ -21,3 +21,9 @@
    .. literalinclude:: snippet/ComplexSinusoidsMain.m
       :caption: 下载 :download:`ComplexSinusoidsMain.m <snippet/ComplexSinusoidsMain.m>`
       :linenos:
+
+#. 第三章合成小提琴
+
+   .. literalinclude:: snippet/ViolinSynthesis.wls
+      :caption: 下载 :download:`ViolinSynthesis.wls <snippet/ViolinSynthesis.wls>`
+      :linenos:

@@ -14,6 +14,11 @@
       .. image:: ../doc/WeChat\ Image_20220307222914.png
          :width: 50%
 
+   #. `傅里叶变换与不确定性 <https://www.cnblogs.com/hwBeta/p/6542320.html>`_
+   #. `傅里叶变换中的不确定性原理（一） <https://zhuanlan.zhihu.com/p/60638534>`_
+   #. `傅里叶变换中的不确定性原理（二） <https://zhuanlan.zhihu.com/p/60835095>`_
+   #. `关于不确定性原理的一些看法 <https://zhuanlan.zhihu.com/p/441554945>`_
+
 #. 阶跃函数缩放
 
    .. image:: ../doc/WeChat\ Image_20220307220903.png
