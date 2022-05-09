@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository 🛎️
         uses: actions/checkout@v3
       - name: Setup micromamba 🐍
-        uses: mamba-org/provision-with-micromamba@v11
+        uses: mamba-org/provision-with-micromamba@main
         with:
           environment-file: environment.yml
           cache-downloads: true
