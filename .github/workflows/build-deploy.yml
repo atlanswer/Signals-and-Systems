@@ -25,7 +25,7 @@ jobs:
         uses: mamba-org/provision-with-micromamba@main
         with:
           environment-file: environment.yml
-          cache-downloads: true
+          # cache-downloads: true
           # cache-downloads-key: ${{ runner.os }}-microconda
           cache-env: true
           cache-env-key: ${{ runner.os }}-microconda-${{ hashFiles('environment.yml') }}
