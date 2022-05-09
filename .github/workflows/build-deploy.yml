@@ -26,7 +26,7 @@ jobs:
         with:
           environment-file: environment.yml
           cache-downloads: true
-          cache-downloads-key: ${{ runner.os }}-microconda
+          # cache-downloads-key: ${{ runner.os }}-microconda
           cache-env: true
           cache-env-key: ${{ runner.os }}-microconda-${{ hashFiles('environment.yml') }}
       - name: Sphinx build 📖
