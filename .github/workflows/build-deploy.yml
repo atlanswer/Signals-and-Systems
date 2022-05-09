@@ -23,15 +23,10 @@ jobs:
           cache-downloads-key: ${{ runner.os }}-microconda
           cache-env: true
           cache-env-key: ${{ runner.os }}-microconda-${{ hashFiles('environment.yml') }}
-      - name: Collect info 📋
-        shell: pwsh
-        run: |
-          micromamba info
-          micromamba list
-          python -m pip cache dir
       - name: Sphinx build 📖
         shell: pwsh
         run: |
+          micromamba activate doc
           sphinx-build -M html doc publish -j auto
       - name: Upload artifacts 📦🔺
         uses: actions/upload-artifact@v3
