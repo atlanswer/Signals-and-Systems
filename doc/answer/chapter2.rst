@@ -8,6 +8,15 @@
 2.1（b）
    .. image:: assets/2-1.jpg
    .. image:: assets/2-1a.jpg
+   
+   .. math::
+
+      \begin{align}
+      y_2[n] &= x[n+2] * h[n]
+      = \sum_{k=-\infty}^{\infty}h[k]x[x+2-k] \\
+      &= \sum_{k=-\infty}^{\infty}(2\delta[k+1]+2\delta[k-1])
+      (\delta[n+2-k]+2\delta[n+1-k]-\delta[n-1-k])
+      \end{align}
 
 2.3
    .. image:: assets/2-3.jpg
