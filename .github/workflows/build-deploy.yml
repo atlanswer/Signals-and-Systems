@@ -1,4 +1,4 @@
-name: "build & deploy"
+name: "Build & deploy"
 
 on:
   push:
@@ -14,35 +14,20 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout repository 🛎️
-        uses: actions/checkout@v2
-      - name: Cache miniconda 🍲
-        uses: actions/cache@v2
+        uses: actions/checkout@v3
+      - name: Setup micromamba 🐍
+        uses: mamba-org/provision-with-micromamba@v11
         with:
-          path: ~/conda_pkgs_dir
-          key: ${{ runner.os}}-miniconda-${{ hashFiles('environment.yml') }}
-          restore-keys: ${{ runner.os}}-miniconda
-      - name: Cache pip 🍴
-        uses: actions/cache@v2
-        with:
-          path: ~/appdata/local/pip/cache
-          key: ${{ runner.os}}-pip-${{ hashFiles('environment.yml') }}
-          restore-keys: ${{ runner.os}}-pip
-      - name: Setup miniconda 🍳
-        uses: conda-incubator/setup-miniconda@v2
-        with:
-          miniconda-version: latest
-          auto-activate-base: false
-          channels: conda-forge
-          channel-priority: strict
-          show-channel-urls: true
           environment-file: environment.yml
-          activate-environment: doc
-          use-only-tar-bz2: true
+          cache-downloads: true
+          cache-downloads-key: ${{ runner.os }}-microconda
+          cache-env: true
+          cache-env-key: ${{ runner.os }}-microconda-${{ hashFiles('environment.yml') }}
       - name: Collect info 📋
         shell: pwsh
         run: |
-          conda info
-          conda list
+          micromamba info
+          micromamba list
           python -m pip cache dir
       - name: Sphinx build 📖
         shell: pwsh
@@ -53,7 +38,6 @@ jobs:
         with:
           name: publish
           path: publish/html
-
   deploy:
     name: GitHub Pages deploy
     concurrency: ci-${{ github.ref }}
@@ -61,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository 🛎️
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Download artifacts 📦🔻
         uses: actions/download-artifact@v3
         with:
