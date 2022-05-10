@@ -22,6 +22,10 @@
    .. image:: assets/2-3.jpg
    .. image:: assets/2-3a.jpg
 
+   View the graph online: https://www.desmos.com/calculator/4sfkokoj2j
+
+   .. image:: assets/2-3a-2.jpg
+
 2.7
    .. image:: assets/2-7.jpg
    .. image:: assets/2-7-2.jpg
