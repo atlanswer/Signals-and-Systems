@@ -33,6 +33,7 @@
    .. image:: assets/2-7a-2.jpg
 
 离散卷积计算
+   请作图展示结果
 
 2.10
    .. image:: assets/2-10.jpg
