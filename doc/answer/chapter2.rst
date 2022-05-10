@@ -56,6 +56,51 @@
    .. image:: assets/2-23a-2.jpg
 
 证明卷积性质
+   To prove property 8, we need property 6 & 7.
+
+   Assume that
+
+   .. math:: g(t) = f(t)*h(t)\text{.}\tag{eq.1}
+
+   Property 6 (differential property):
+
+   .. math::
+
+      g^{(1)}(t) = f(t)*h^{(1)}(t)
+      \tag{eq.2}\text{.}
+
+   Using commutativity:
+
+   .. math:: g^{(1)}(t) = f^{(1)}(t)*h(t)\tag{eq.3}
+
+   Property 7 (integral property):
+
+   .. math::
+
+      g^{(-1)}(t) = f(t)*h^{(-1)}(t)
+      \tag{eq.4}\text{.}
+
+   Obviously:
+
+   .. math::
+
+      g^{(-1)}(t) = f^{(-1)}(t)*h(t)
+      \tag{eq.5}\text{.}
+
+   
+   
+   .. math::
+
+      \begin{align}
+      g^{(1)}(t) &= \frac{\mathrm{d}}{\mathrm{d}t}
+      \int_{-\infty}^{\infty}f(\tau)h(t-\tau)\mathrm{d}\tau \\
+      &= \int_{-\infty}^{\infty}f(\tau)\left[\frac{\mathrm{d}}{\mathrm{d}t}
+      h(t-\tau)\right]\mathrm{d}\tau \\
+      &= f(t)*h^{(1)}(t)
+      \tag{eq.2}\text{.}
+      \end{align}
+
+
 
 2.28（a，c）
    .. image:: assets/2-28.jpg
