@@ -24,7 +24,9 @@
 
    View the graph online: https://www.desmos.com/calculator/4sfkokoj2j
 
-   .. image:: assets/2-3a-2.jpg
+   .. figure:: assets/2-3a-2.jpg
+
+      **Figure S2.3**: :math:`y[n]`
 
 2.7
    .. image:: assets/2-7.jpg
@@ -125,6 +127,7 @@
    .. image:: assets/2-40.jpg
    .. image:: assets/2-40a.jpg
    .. image:: assets/2-40a-2.jpg
+   .. image:: assets/2-40a-3.jpg
 
 2.53（c-i）
    .. image:: assets/2-53.jpg
