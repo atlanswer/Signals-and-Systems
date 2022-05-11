@@ -49,6 +49,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'nbsphinx',
     'IPython.sphinxext.ipython_console_highlighting',
+    'sphinxcontrib.mermaid',
 ]
 
 # MyST parser configuration
