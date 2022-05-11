@@ -67,7 +67,7 @@
    .. math::
 
       g^{(1)}(t) = f(t)*h^{(1)}(t)
-      \tag{eq.2}\text{.}
+      \label{eq.2}\tag{eq.2}\text{.}
 
    Using commutativity:
 
@@ -78,29 +78,39 @@
    .. math::
 
       g^{(-1)}(t) = f(t)*h^{(-1)}(t)
-      \tag{eq.4}\text{.}
+      \label{eq.4}\tag{eq.4}\text{.}
 
    Obviously:
 
    .. math::
 
       g^{(-1)}(t) = f^{(-1)}(t)*h(t)
-      \tag{eq.5}\text{.}
+      \label{eq.5}\tag{eq.5}\text{.}
 
-   
-   
+   Consider this:
+
    .. math::
 
       \begin{align}
-      g^{(1)}(t) &= \frac{\mathrm{d}}{\mathrm{d}t}
-      \int_{-\infty}^{\infty}f(\tau)h(t-\tau)\mathrm{d}\tau \\
-      &= \int_{-\infty}^{\infty}f(\tau)\left[\frac{\mathrm{d}}{\mathrm{d}t}
-      h(t-\tau)\right]\mathrm{d}\tau \\
-      &= f(t)*h^{(1)}(t)
-      \tag{eq.2}\text{.}
+      g(t) &= \left[\int_{-\infty}^{t}f^{(1)}(\tau)\mathrm{d}\tau
+      +f(-\infty)\right]*h(t) \\
+      &= \left[f^{(1)}(t)\right]^{(-1)}*h(t)\text{,}
       \end{align}
 
+   since :math:`f_1(-\infty)=f_2(-\infty)=0`. Using :math:`(\ref{eq.4})` and :math:`(\ref{eq.5})`, we get:
 
+   .. math::
+
+      g(t) = f^{(1)}(t)*h^{(-1)}(t)\label{eq.6}\tag{eq.6}
+
+   Of course:
+
+   .. math::
+
+      g(t) = f^{(-1)}(t)*h^{(1)}(t)\label{eq.7}\tag{eq.7}
+
+   First, we repeatedly use :math:`(\ref{eq.2})` or :math:`(\ref{eq.4})` to get
+   :math:`f^{(i)}(t)=f_1(t)*f_2^{(i)}(t)`, and then we can prove :math:`f^{(i)}(t)=f_1^{(j)}(t)*f_2^{(i-j)}(t)` with :math:`(\ref{eq.6})` and :math:`(\ref{eq.7})`.
 
 2.28（a，c）
    .. image:: assets/2-28.jpg
