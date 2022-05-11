@@ -123,6 +123,11 @@
    .. image:: assets/2-39a.jpg
    .. image:: assets/2-39a-2.jpg
 
+   .. mermaid::
+
+      graph LR
+         A --- B
+
 .. raw:: html
 
    <div class="mermaid">
@@ -131,11 +136,6 @@
          B-->C[fa:fa-ban forbidden]
          B-->D(fa:fa-spinner)
    </div>
-
-   .. mermaid::
-
-      graph LR
-         A --- B
 
 2.40
    .. image:: assets/2-40.jpg
