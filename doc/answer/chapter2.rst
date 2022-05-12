@@ -123,18 +123,16 @@
    .. image:: assets/2-39a.jpg
    .. image:: assets/2-39a-2.jpg
 
-   .. .. mermaid::
-
-   ..    graph LR
-   ..       A --- B
-
 .. raw:: html
 
    <div class="mermaid">
-      graph LR
-         A --- B
-         B-->C[fa:fa-ban forbidden]
-         B-->D(fa:fa-spinner)
+      flowchart LR
+         X("x(t)")
+         S("⊕")
+         D("D")
+         Y("y(t)")
+         X -->|4| S --> Y
+         Y --> D -->|-1/2| S
    </div>
 
 2.40
