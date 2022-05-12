@@ -49,7 +49,6 @@ extensions = [
     'sphinx.ext.githubpages',
     'nbsphinx',
     'IPython.sphinxext.ipython_console_highlighting',
-    'sphinxcontrib.mermaid',
 ]
 
 # MyST parser configuration
@@ -58,6 +57,13 @@ myst_dmath_allow_labels = True
 
 # nbsphinx configuration
 nbsphinx_execute = 'never'
+
+# mermaid configuration
+mermaid_init_js = "requirejs(['https://unpkg.com/mermaid/dist/mermaid.min.js'],(mermaid) => {mermaid.initialize({startOnLoad:true})})"
+
+def setup(app):
+    app.add_js_file('https://unpkg.com/mermaid/dist/mermaid.min.js', priority=499)
+    app.add_js_file(None, body='mermaid.initialize({startOnLoad:true})', priority=499)
 
 # numpydoc config
 numpydoc_use_plots = True

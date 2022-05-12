@@ -123,10 +123,10 @@
    .. image:: assets/2-39a.jpg
    .. image:: assets/2-39a-2.jpg
 
-   .. mermaid::
+   .. .. mermaid::
 
-      graph LR
-         A --- B
+   ..    graph LR
+   ..       A --- B
 
 .. raw:: html
 
