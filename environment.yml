@@ -37,7 +37,7 @@ dependencies:
   - jinja2=3.0.3=pyhd8ed1ab_0
   - jsonschema=4.5.1=pyhd8ed1ab_0
   - jupyter_client=7.3.1=pyhd8ed1ab_0
-  - jupyter_core=4.9.2=py310h5588dad_0
+  - jupyter_core=4.10.0=py310h5588dad_0
   - jupyterlab_pygments=0.2.2=pyhd8ed1ab_0
   - libffi=3.4.2=h8ffe710_5
   - libsodium=1.0.18=h8d14728_1
@@ -64,7 +64,7 @@ dependencies:
   - parso=0.8.3=pyhd8ed1ab_0
   - pbr=5.9.0=pyhd8ed1ab_0
   - pickleshare=0.7.5=py_1003
-  - pip=22.0.4=pyhd8ed1ab_0
+  - pip=22.1=pyhd8ed1ab_0
   - prompt-toolkit=3.0.29=pyha770c72_0
   - pure_eval=0.2.2=pyhd8ed1ab_0
   - pycparser=2.21=pyhd8ed1ab_0
@@ -108,7 +108,6 @@ dependencies:
   - tk=8.6.12=h8ffe710_0
   - tornado=6.1=py310he2412df_3
   - traitlets=5.2.0=pyhd8ed1ab_0
-  - typeguard=2.13.0=pyhd8ed1ab_0
   - types-docutils=0.18.3=pyhd8ed1ab_0
   - typing-extensions=4.2.0=hd8ed1ab_1
   - typing_extensions=4.2.0=pyha770c72_1
@@ -127,3 +126,4 @@ dependencies:
   - zipp=3.8.0=pyhd8ed1ab_0
   - pip:
     - esbonio==0.11.2
+    - typeguard==2.13.3

@@ -3,7 +3,25 @@
 ##############
 
 .. note::
-   第二章答案施工中...
+
+  .. list-table:: 评分标准（总分 14）
+    :header-rows: 1
+
+    * - 评分
+      - 所需分数
+      - 对应分数
+    * - :math:`\text{A}`
+      - :math:`[12, 14]`
+      - :math:`100`
+    * - :math:`\text{B}`
+      - :math:`[10, 12)`
+      - :math:`85`
+    * - :math:`\text{C}`
+      - :math:`[8, 10)`
+      - :math:`70`
+    * - :math:`\text{D}`
+      - :math:`[0, 8)`
+      - :math:`0`
 
 2.1（b）
    .. image:: assets/2-1.jpg
