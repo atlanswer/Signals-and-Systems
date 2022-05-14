@@ -174,29 +174,44 @@
 
    .. warning::
 
-      Non-causal vs. anti-causal systems\ [2]_:
+      Causal vs. noncausal vs. anticausal systems\ [2]_\ [3]_:
 
-      - A system that has *some*  dependence on input values from the
-        future is termed a non-causal or acausal system:
+      - Causal or non-anticipative system: the output at any time depends only
+        on the past and current inputs:
 
-      ..   .. math::
+        .. math::
 
-      ..      h[n] = 0 \quad\text{for}\quad n < 0 \text{.}
+           \forall n < 0, h[n] = 0 \text{.}
 
-      ..   .. math::
+      - Noncausal or acausal system: a system that has *some*
+        dependence on input values from the future:
 
-      ..      h[n] = 0 \quad\text{for}\quad n < 0 \text{.}
+        .. math::
 
-      .. [2] https://en.wikipedia.org/wiki/Causal_system
+           \exists n_1 < 0, h[n_1] \neq 0 \text{.}
+
+      - Anticausal system: a system that does not depend
+        on past input values:
+
+        .. math::
+
+           \forall n > 0, h[n] = 0 \text{.}
+
+      Obviously, anticausal systems are also noncausal.
+
+      .. [2] The last paragraph of the textbook chapter 9.7.1
+      .. [3] https://en.wikipedia.org/wiki/Causal_system
 
 2.39（a）
    .. image:: assets/2-39.jpg
    .. image:: assets/2-39a.jpg
    .. image:: assets/2-39a-2.jpg
 
-.. raw:: html
+   An uglier illustration:
 
-   <div class="mermaid">
+   .. raw:: html
+
+      <div class="mermaid">
       flowchart LR
          X("x(t)")
          S("⊕")
@@ -204,7 +219,7 @@
          Y("y(t)")
          X -->|4| S --> Y
          Y --> D -->|-1/2| S
-   </div>
+      </div>
 
 2.40
    .. image:: assets/2-40.jpg

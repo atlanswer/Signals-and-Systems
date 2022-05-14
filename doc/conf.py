@@ -22,7 +22,7 @@ author = 'X. Zhao'
 copyright = 'CC BY-NC-SA 4.0'
 
 # The full version, including alpha/beta/rc tags
-release = '0.2.6'
+release = '0.2.7'
 
 
 # -- General configuration ---------------------------------------------------
@@ -57,9 +57,6 @@ myst_dmath_allow_labels = True
 
 # nbsphinx configuration
 nbsphinx_execute = 'never'
-
-# mermaid configuration
-mermaid_init_js = "requirejs(['https://unpkg.com/mermaid/dist/mermaid.min.js'],(mermaid) => {mermaid.initialize({startOnLoad:true})})"
 
 def setup(app):
     app.add_js_file('https://unpkg.com/mermaid/dist/mermaid.min.js', priority=499)
