@@ -2,7 +2,7 @@
 参考答案
 ############
 
-.. note:: 第二章答案施工中
+.. note:: 第三章答案施工中
 
 .. toctree::
     :caption: 各章作业参考答案
@@ -12,3 +12,4 @@
     chapter2
     chapter3
     chapter4
+    chapter5
