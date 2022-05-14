@@ -40,6 +40,8 @@
    .. image:: assets/2-3.jpg
    .. image:: assets/2-3a.jpg
 
+   .. note:: Do **NOT** forget to plot the output when you are expected to to exactly that.
+
    View the graph online: https://www.desmos.com/calculator/4sfkokoj2j
 
    .. figure:: assets/2-3a-2.jpg
@@ -51,6 +53,8 @@
    .. image:: assets/2-7-2.jpg
    .. image:: assets/2-7a.jpg
    .. image:: assets/2-7a-2.jpg
+
+   Or :math:`y[n] = u[n] + u[n-2]`.
 
 离散卷积计算
    请作图展示结果
@@ -69,11 +73,23 @@
    .. image:: assets/2-20a.jpg
    .. image:: assets/2-20a-2.jpg
 
+   .. warning::
+
+      :math:`u_1(t)` is a unit doublet, not a unit step function:
+
+      .. math::
+
+         x(t) * u_1(t) = \frac{\mathrm{d}x(t)}{\mathrm{d}t}\text{.}
+
 2.23
    .. image:: assets/2-23.jpg
    .. image:: assets/2-23-2.jpg
    .. image:: assets/2-23a.jpg
    .. image:: assets/2-23a-2.jpg
+
+   .. note::
+
+      Mark the axes smartly.
 
 证明卷积性质
    To prove property 8, we need property 6 & 7.
@@ -132,9 +148,46 @@
    First, we repeatedly use :math:`(\ref{eq.2})` or :math:`(\ref{eq.4})` to get
    :math:`f^{(i)}(t)=f_1(t)*f_2^{(i)}(t)`, and then we can prove :math:`f^{(i)}(t)=f_1^{(j)}(t)*f_2^{(i-j)}(t)` with :math:`(\ref{eq.6})` and :math:`(\ref{eq.7})`.
 
+   .. warning::
+
+      性质证明题
+
 2.28（a，c）
    .. image:: assets/2-28.jpg
    .. image:: assets/2-28a.jpg
+
+   .. warning::
+
+         A system is stable if and only if every bounded input
+         yields a bounded output.
+
+      Remember the impulse response stability criteria correctly:
+
+         If the system is LTI and can be described by an impulse
+         response :math:`h[n]`, the above definition is equivalent to\ [1]_:
+
+         .. math::
+
+            \sum_{n=-\infty}^{\infty}|h[n]|<\infty\text{.}
+
+         .. [1] https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1444705
+
+   .. warning::
+
+      Non-causal vs. anti-causal systems\ [2]_:
+
+      - A system that has *some*  dependence on input values from the
+        future is termed a non-causal or acausal system:
+
+      ..   .. math::
+
+      ..      h[n] = 0 \quad\text{for}\quad n < 0 \text{.}
+
+      ..   .. math::
+
+      ..      h[n] = 0 \quad\text{for}\quad n < 0 \text{.}
+
+      .. [2] https://en.wikipedia.org/wiki/Causal_system
 
 2.39（a）
    .. image:: assets/2-39.jpg

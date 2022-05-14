@@ -108,6 +108,7 @@ dependencies:
   - tk=8.6.12=h8ffe710_0
   - tornado=6.1=py310he2412df_3
   - traitlets=5.2.0=pyhd8ed1ab_0
+  - typeguard=2.13.0=pyhd8ed1ab_0
   - types-docutils=0.18.3=pyhd8ed1ab_0
   - typing-extensions=4.2.0=hd8ed1ab_1
   - typing_extensions=4.2.0=pyha770c72_1
@@ -126,4 +127,3 @@ dependencies:
   - zipp=3.8.0=pyhd8ed1ab_0
   - pip:
     - esbonio==0.11.2
-    - typeguard==2.13.3
