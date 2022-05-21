@@ -15,15 +15,15 @@ dependencies:
   - bleach=5.0.0=pyhd8ed1ab_0
   - brotlipy=0.7.0=py310he2412df_1004
   - bzip2=1.0.8=h8ffe710_4
-  - ca-certificates=2021.10.8=h5b45459_0
-  - certifi=2021.10.8=py310h5588dad_2
+  - ca-certificates=2022.5.18.1=h5b45459_0
+  - certifi=2022.5.18.1=py310h5588dad_0
   - cffi=1.15.0=py310hcbf9ad4_0
   - charset-normalizer=2.0.12=pyhd8ed1ab_0
   - colorama=0.4.4=pyh9f0ad1d_0
-  - cryptography=36.0.2=py310ha857299_1
+  - cryptography=37.0.2=py310ha857299_0
   - decorator=5.1.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
-  - doc8=0.11.1=pyhd8ed1ab_0
+  - doc8=0.11.2=pyhd8ed1ab_0
   - docutils=0.17.1=py310h5588dad_2
   - entrypoints=0.4=pyhd8ed1ab_0
   - executing=0.8.3=pyhd8ed1ab_0
@@ -64,7 +64,7 @@ dependencies:
   - parso=0.8.3=pyhd8ed1ab_0
   - pbr=5.9.0=pyhd8ed1ab_0
   - pickleshare=0.7.5=py_1003
-  - pip=22.1=pyhd8ed1ab_0
+  - pip=22.0.4=pyhd8ed1ab_0
   - prompt-toolkit=3.0.29=pyha770c72_0
   - pure_eval=0.2.2=pyhd8ed1ab_0
   - pycparser=2.21=pyhd8ed1ab_0
@@ -84,11 +84,11 @@ dependencies:
   - pytz=2022.1=pyhd8ed1ab_0
   - pywin32=303=py310he2412df_0
   - pyyaml=6.0=py310he2412df_4
-  - pyzmq=22.3.0=py310h73ada01_2
+  - pyzmq=23.0.0=py310h73ada01_0
   - requests=2.27.1=pyhd8ed1ab_0
   - restructuredtext_lint=1.4.0=pyhd8ed1ab_0
   - rstcheck=5.0.0=pyhd8ed1ab_0
-  - setuptools=62.2.0=py310h5588dad_0
+  - setuptools=62.3.2=py310h5588dad_0
   - six=1.16.0=pyh6c4a22f_0
   - snowballstemmer=2.2.0=pyhd8ed1ab_0
   - soupsieve=2.3.1=pyhd8ed1ab_0
@@ -108,7 +108,6 @@ dependencies:
   - tk=8.6.12=h8ffe710_0
   - tornado=6.1=py310he2412df_3
   - traitlets=5.2.1.post0=pyhd8ed1ab_0
-  - typeguard=2.13.0=pyhd8ed1ab_0
   - types-docutils=0.18.3=pyhd8ed1ab_0
   - typing-extensions=4.2.0=hd8ed1ab_1
   - typing_extensions=4.2.0=pyha770c72_1
@@ -127,3 +126,4 @@ dependencies:
   - zipp=3.8.0=pyhd8ed1ab_0
   - pip:
     - esbonio==0.11.2
+    - typeguard==2.13.3
