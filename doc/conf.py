@@ -22,7 +22,7 @@ author = 'X. Zhao'
 copyright = 'CC BY-NC-SA 4.0'
 
 # The full version, including alpha/beta/rc tags
-release = '0.3.0'
+release = '0.3.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -54,6 +54,9 @@ extensions = [
 # MyST parser configuration
 myst_enable_extensions = ['dollarmath']
 myst_dmath_allow_labels = True
+
+# MathJax configuration
+mathjax_path = 'https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js'
 
 # nbsphinx configuration
 nbsphinx_execute = 'never'
