@@ -35,11 +35,30 @@
    .. image:: assets/4-12a.jpg
 
 4.22（c）
+   .. image:: assets/4-22.jpg
+   .. image:: assets/4-22-2.jpg
+   .. image:: assets/4-22-3.jpg
+   .. image:: assets/4-22a.jpg
 
 4.32（c）
+   .. image:: assets/4-32.jpg
+   .. image:: assets/4-32-2.jpg
+   .. image:: assets/4-32a.jpg
+   .. image:: assets/4-32a-2.jpg
 
 4.36（a，b）
+   .. image:: assets/4-36.jpg
+   .. image:: assets/4-36a.jpg
 
 4.49
+   .. image:: assets/4-49.jpg
+   .. image:: assets/4-49-2.jpg
+   .. image:: assets/4-49-3.jpg
+   .. image:: assets/4-49-4.jpg
+   .. image:: assets/4-49-5.jpg
+   .. image:: assets/4-49-6.jpg
+   .. image:: assets/4-49a.jpg
 
 4.53（a）
+   .. image:: assets/4-53.jpg
+   .. image:: assets/4-53a.jpg
