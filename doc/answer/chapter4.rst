@@ -33,12 +33,14 @@
 4.12
    .. image:: assets/4-12.jpg
    .. image:: assets/4-12a.jpg
+   .. warning:: 4.12
 
 4.22（c）
    .. image:: assets/4-22.jpg
    .. image:: assets/4-22-2.jpg
    .. image:: assets/4-22-3.jpg
    .. image:: assets/4-22a.jpg
+   .. warning:: 4.22
 
 4.32（c）
    .. image:: assets/4-32.jpg
@@ -58,6 +60,7 @@
    .. image:: assets/4-49-5.jpg
    .. image:: assets/4-49-6.jpg
    .. image:: assets/4-49a.jpg
+   .. warning:: 4.49
 
 4.53（a）
    .. image:: assets/4-53.jpg
