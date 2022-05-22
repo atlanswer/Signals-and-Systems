@@ -22,7 +22,7 @@ author = 'X. Zhao'
 copyright = 'CC BY-NC-SA 4.0'
 
 # The full version, including alpha/beta/rc tags
-release = '0.3.2'
+release = '0.3.3'
 
 
 # -- General configuration ---------------------------------------------------
@@ -92,6 +92,10 @@ html_theme_options = {
         {
             'name': 'EM Journey',
             'url': 'https://gitee.com/kai-lu/EM_Journey',
+        },
+        {
+            'name': 'EM Journey (GitHub)',
+            'url': 'https://github.com/Antenna-Genesis/EM_Journey',
         }
     ],
     'github_url': 'https://github.com/atlanswer/signals-and-systems',
