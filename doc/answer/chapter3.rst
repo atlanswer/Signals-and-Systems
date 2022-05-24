@@ -35,7 +35,7 @@
    .. image:: assets/3-34a-3.jpg
    .. warning:: 3.34
 
-3.46（a，b，c）
+3.46（a，b(i)，c）
    .. image:: assets/3-46.jpg
    .. image:: assets/3-46-2.jpg
    .. image:: assets/3-46-3.jpg

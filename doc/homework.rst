@@ -105,7 +105,7 @@
   | （b）：Only :math:`x_1(t)`
   | （c）
 
-#. 3.61（a）
+7. 3.61（a）
 #. 3.64
 #. 3.65（d）
 #. 用 Python/Wolfram（Mathematica）/MATLAB
