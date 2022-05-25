@@ -9,7 +9,7 @@
    .. image:: assets/5-1.jpg
    .. image:: assets/5-1a.jpg
 
-5.3（a）
+5.3（b）
    .. image:: assets/5-3.jpg
    .. image:: assets/5-3a.jpg
    .. image:: assets/5-3a-2.jpg
@@ -22,6 +22,7 @@
    .. image:: assets/5-21.jpg
    .. image:: assets/5-21-2.jpg
    .. image:: assets/5-21a.jpg
+   .. image:: assets/5-21a-2.jpg
 
 5.22（g）
    .. image:: assets/5-22.jpg
