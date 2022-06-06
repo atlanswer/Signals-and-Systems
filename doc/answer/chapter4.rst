@@ -17,7 +17,20 @@
 4.4（b）
    .. image:: assets/4-4.jpg
    .. image:: assets/4-4-2.jpg
-   .. image:: assets/4-4a.jpg
+
+   The inverse Fourier transform is
+
+   .. math::
+
+      \begin{equation}
+      \begin{split}
+      x_2(t) &= \frac{1}{2\pi}\int_{-\infty}^{\infty}X_2(j\omega)e^{j\omega t}\mathrm{d}\omega \\
+      &= \frac{1}{2\pi}\int_{0}^{2}2e^(j\omega t)\mathrm{d}\omega
+      +\frac{1}{2\pi}\int_{-2}^{0}(-2)e^{j\omega t}\mathrm{d}\omega \\
+      &= \frac{e^{j2t}-1}{j\pi t}-\frac{1-e^{-j2t}}{j\pi t} \\
+      &= \frac{4j\sin^2t}{\pi t}
+      \end{split}
+      \end{equation}
 
 4.9
    .. image:: assets/4-9.jpg
@@ -33,6 +46,11 @@
 4.12
    .. image:: assets/4-12.jpg
    .. image:: assets/4-12a.jpg
+
+   .. math::
+
+      \frac{4t}{(1+t^2)^2} \underleftrightarrow{FT} -j2\pi\omega e^{-|\omega|}\text{.}
+
    .. warning:: 4.12
 
 4.22（c）
