@@ -15,3 +15,5 @@ Signals and Systems
    :target: https://github.com/atlanswer/signals-and-systems/actions/workflows/build-deploy.yml
 
 *Signals and Systems* course resources.
+
+**Note**: This project has reached EOL.
